@@ -1,1 +1,3 @@
-curl http://127.0.0.1:8001/modules
+curl -X POST "http://127.0.0.1:8001/update_module" \
+     -H "Content-Type: application/json" \
+     -d '{"module_name": "analytics", "api_key": "SUPERSECRET_RUFIO_KEY"}'
