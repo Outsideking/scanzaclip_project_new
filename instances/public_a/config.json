@@ -1,1 +1,1 @@
-# copy from public_a.json
+curl http://127.0.0.1:8001/modules
